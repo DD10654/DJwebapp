@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Settings, Title and Linking -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--ML5 and P5.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js" target="_blank"></script>
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+</head>
+<body background="background.jpeg">
+    <center>
+        <h3 class="heading">
+            AI DJ Web App
+            <br>
+            <span class="note">Note - Move your Left Hand Wrist Up and Down for increasing and decreasing the volume. 
+                Move your Right Hand Wrist Up and Down for increasing and decreasing the speed.
+            </span>
+        </h3>
+        <br><br>
+        <div class="div_speed">
+            <img class="div_img" src="disk.gif">
+            <br>
+            <h3 class="btn" id="speed">Speed</h3>
+        </div>
+
+        <div class="div_vol">
+            <img class="div_img" src="disk.gif">
+            <br>
+            <h3 class="btn" id="vol">Volume</h3>
+        </div>
+
+        <br><br>
+
+        <button class="btn play12" onclick="play1()">Play</button>
+        <button class="btn play12" onclick="stop1()">Stop</button>
+        <button class="btn play12" onclick="pause1()">Pause</button>
+        <br><br>
+        <select id="name" class="">
+            <option value="end_of_time">End of Time</option>
+            <option value="peter_pan">Lost Boy</option>
+            <option value="let_it_go">Let it Go</option>
+
+        </select>
+    </center>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.heading {
+    background-color: #6FEDB7;
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    color: #140D4F;
+    padding: 10px;
+}
+
+.note {
+    font-size: 17px;
+    color: #1C0B19;
+}
+
+body {
+    background-size: cover;
+}
+
+.div_speed {
+    float: left;
+    margin-left: 50px;
+}
+
+.div_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed, #vol {
+    background-color: #31A374;
+    color: #1C0B19;
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_vol {
+    float: right;
+    margin-right: 50px;
+}
+
+.play12 {
+    background-color: #31A374;
+    color: #1C0B19;
+    font-size: 25px;
+    font-weight: 900px;
+    width: 130px;
+    margin: 10px;
+}
+
+canvas {
+    border: 5px ridge white;
+    border-radius: 20px;
+    margin-top: 150px;
+}
